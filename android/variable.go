@@ -132,6 +132,11 @@ type variableProperties struct {
 		Target_shim_libs struct {
 			Cppflags []string
 		}
+
+        Additional_gralloc_10_usage_bits struct {
+            Cppflags []string
+        }
+
 	} `android:"arch_variant"`
 }
 
